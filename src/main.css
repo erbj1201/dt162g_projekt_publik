@@ -1,0 +1,50 @@
+/*Extra CSS */
+body {
+    background-color: #151716;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2em;
+}
+em{
+    font-weight: 200;
+}
+.container{
+    background-color: #151716;
+}
+
+header, footer{
+    background-color: #151716;
+}
+footer{
+    border-top: 1px solid white;
+    margin-top: 4em;
+}
+.logo{
+    font-family: 'Noto Serif', serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+}
+
+.form-control{
+    background-color: #151716;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    max-width: 400px;
+}
+label{
+    font-family: 'Noto Serif', serif;
+    font-weight: 200;
+    font-size: 1.4em;
+    margin: 0.5em;
+}
+
+.h2-contact{
+    font-family: 'Noto Serif', serif;
+    font-weight: 200;
+}
