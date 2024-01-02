@@ -12,13 +12,17 @@ Kurs: DT162G - JavaScriptbaserad Webbutveckling
 
 Applikationen är en företagspresentationssida för ett fiktivt café vid namn CoffeCake Café. Caféet presenterar information om företaget, sina kontaktuppgifter och sin meny i applikationen. Menyerna som finns lagras i en REST-webbtjänst.
 
-Webbapplikationen har skapast med hjälp av frontend-ramverket React som har installerats med Vite. Designen är skapad med Bootstrap och minimalt med egenskriven CSS-kod. All kod är skriven i TypeScript och JSX och är komponentbaserad. 
+Webbapplikationen har skapast med hjälp av frontend-ramverket React som har installerats med Vite. CSS är skapad med CSS-ramverket Bootstrap och minimalt med egenskriven CSS-kod. All kod är skriven i TypeScript och JSX och är komponentbaserad. 
 Det finns komponenter för header, footer och för att skriva ut menyn.
 
 
 ## API som konsumeras
 
-Menyerna som finns i applikationen finns lagrade i en REST-webbtjänst. Webbtjänsten har full CRUD-funktionalitet, dock är vissa delar av Webbtjänsten skyddade med autentisering. Kommunikation mellan API:t och applikationen sker med hjälpa av Ajax-anrop med metoden Fetch. Data hämtas från API:t i JSON-format.
+Menyerna som finns i applikationen finns lagrade i en REST-webbtjänst. Webbtjänsten har full CRUD-funktionalitet, dock är vissa delar av Webbtjänsten skyddade med autentisering. 
+
+API:t är skapat med Node.js, ramverket Express och några installerade NPM-paket.
+
+Kommunikation mellan API:t och applikationen sker med hjälpa av Ajax-anrop med metoden Fetch. Data hämtas från API:t i JSON-format.
 
 ## Endpoints och användning 
 
