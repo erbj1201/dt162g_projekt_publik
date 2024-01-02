@@ -15,6 +15,14 @@ Applikationen är en företagspresentationssida för ett fiktivt café vid namn 
 Webbapplikationen har skapast med hjälp av frontend-ramverket React som har installerats med Vite. CSS är skapad med CSS-ramverket Bootstrap och minimalt med egenskriven CSS-kod. All kod är skriven i TypeScript och JSX och är komponentbaserad. 
 Det finns komponenter för header, footer och för att skriva ut menyn.
 
+### NPM-paket
+- Vite (React installerades med Vite)
+- Boostrap för CSS
+- Dompurify för sanitering av data
+- React-contenteditable för att möjliggöra contenteditable
+- React-dom för att arbeta med DOM
+- React-router-dom för att använda React Router
+
 
 ## API som konsumeras
 
