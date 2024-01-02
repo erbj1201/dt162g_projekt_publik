@@ -1,30 +1,52 @@
-# React + TypeScript + Vite
+# Publik webbapplikation, React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Repository för publik webbapplikation till projektuppgift
 
-Currently, two official plugins are available:
+Skapat av Erika Vestin, 2024 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Webbutvecklingsprogrammet, Miun Sundsvall 
 
-## Expanding the ESLint configuration
+Kurs: DT162G - JavaScriptbaserad Webbutveckling 
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Om applikationen 
 
-- Configure the top-level `parserOptions` property like this:
+Applikationen är en företagspresentationssida för ett fiktivt café vid namn CoffeCake Café. Caféet presenterar information om företaget, sina kontaktuppgifter och sin meny i applikationen. Menyerna som finns lagras i en REST-webbtjänst.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Webbapplikationen har skapast med hjälp av frontend-ramverket React som har installerats med Vite. Designen är skapad med Bootstrap och minimalt med egenskriven CSS-kod. All kod är skriven i TypeScript och JSX och är komponentbaserad. 
+Det finns komponenter för header, footer och för att skriva ut menyn.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## API som konsumeras
+
+Menyerna som finns i applikationen finns lagrade i en REST-webbtjänst. Webbtjänsten har full CRUD-funktionalitet, dock är vissa delar av Webbtjänsten skyddade med autentisering. Kommunikation mellan API:t och applikationen sker med hjälpa av Ajax-anrop med metoden Fetch. Data hämtas från API:t i JSON-format.
+
+## Endpoints och användning 
+
+Metod           Ändpunkt                  Beskrivning
+
+
+GET              /menu                    Hämtar alla poster i menyn
+
+
+GET              /menu/id                 Hämtar en specifik post från menyn med hjälp av angivet ID. 
+
+
+## Format på objekt 
+
+### Menu
+
+{
+
+    "_id": "65900ddf931ba946be6a2744",
+    
+    "name": "Kanelbulle",
+    
+    "description": "Vetebulle med kanel, socker, kardemumma, pärlsocker",
+    
+    "category": "Frukost",
+    
+    "price": "25kr",
+    
+    "__v": 0
+    
+  }
