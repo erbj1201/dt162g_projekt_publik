@@ -20,7 +20,7 @@ Det finns komponenter för header, footer och för att skriva ut menyn.
 
 Menyerna som finns i applikationen finns lagrade i en REST-webbtjänst. Webbtjänsten har full CRUD-funktionalitet, dock är vissa delar av Webbtjänsten skyddade med autentisering. 
 
-API:t är skapat med Node.js, ramverket Express och några installerade NPM-paket.
+API:t är skapat med Node.js, ramverket Express och några installerade NPM-paket. Data från webbtjänsten lagras i en NoSQL-databas,
 
 Kommunikation mellan API:t och applikationen sker med hjälpa av Ajax-anrop med metoden Fetch. Data hämtas från API:t i JSON-format.
 
