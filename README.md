@@ -17,9 +17,8 @@ Det finns komponenter för header, footer och för att skriva ut menyn.
 
 ### NPM-paket
 - Vite (React installerades med Vite)
+- TypeScript (följde med Vite)
 - Boostrap för CSS
-- Dompurify för sanitering av data
-- React-contenteditable för att möjliggöra contenteditable
 - React-dom för att arbeta med DOM
 - React-router-dom för att använda React Router
 
