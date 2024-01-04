@@ -20,8 +20,8 @@ const MenuComponent: React.FC = () => {
   const [filteredPosts, setFilteredPosts] = useState<Post[]>([]);
   //UseEffect to fetch data
   useEffect(() => {
-    const fetchData = async () => {
-      setIsLoading(true);
+    const getMenu = async () => {
+      setIsLoading(true)
       try {
         const response = await fetch(`${url}`);
         const fetchedPosts = (await response.json()) as Post[];
@@ -33,7 +33,7 @@ const MenuComponent: React.FC = () => {
       }
     };
 
-    fetchData();
+    getMenu();
   }, []);
   //UseEffect to filer by category
   useEffect(() => {
