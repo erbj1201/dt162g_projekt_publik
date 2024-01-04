@@ -1,6 +1,6 @@
 //Menypage
 //import
-import MenuComponent from "../components/FetchData";
+import MenuComponent from "../components/Menu";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 //COmponent including other components
