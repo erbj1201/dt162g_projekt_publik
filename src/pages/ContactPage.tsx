@@ -13,7 +13,7 @@ const ContactPage = () => {
       Besök oss fysiskt i vårt café, mejla eller ring</h2>
     <article className='container mx-auto w-100 text-center d-flex flex-row justify-content-between'>
 
-      <div className='text-wrapper w-100 d-flex flex-column m-5'>
+      <div className='text-wrapper mx-auto w-100 d-flex flex-column'>
       <div className='mx-auto p-3'>
       <h3>Besöksadress</h3>
       <p>Cafégatan 1 <br></br>

@@ -10,7 +10,7 @@ const Home = () => {
       <main className="container text-center">
         <h1>Start</h1>
         <article className="container w-75 p-3">
-          <h2 className="h2-contact p-5 m-3">
+          <h2 className="h2-contact p-3 m-2">
             Välkommen till oss på CoffeCake Café
           </h2>
           <p>CoffeCake Café startades 2022 och ligger mitt i Gävle. </p>

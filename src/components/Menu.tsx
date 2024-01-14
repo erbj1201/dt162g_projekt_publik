@@ -54,12 +54,12 @@ const MenuComponent: React.FC = () => {
   return (
     <div>
       <h1 className="mx-auto text-center">Menyer</h1>
-      <form className="form-control border-0 mx-auto w-50 text-center m-5">
-        <label className="border-0 mx-auto p-2" htmlFor="category">
+      <form className="form-control border-0 mx-auto w-75 text-center m-5">
+        <label className="border-0 mx-auto p-1" htmlFor="category">
           <strong>Sortera meny efter kategori</strong>
         </label>
         <select
-          className="form-control mb-3 mx-auto form-select border border-white shadow-none text-center"
+          className="form-control mb-3 mt-3 mx-auto form-select border border-white shadow-none text-center"
           id="category"
           onChange={(e) => setCategory(e.target.value)}
           value={category || ""}
