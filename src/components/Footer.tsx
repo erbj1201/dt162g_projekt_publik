@@ -4,8 +4,8 @@
 const Footer = () => {
   return (
     <div>
-      <footer className="container w-100 text-center d-flex flex-row justify-content-between"> 
-      <div className="ohours p-5 mx-auto">
+      <footer className="container mx-auto text-center block"> 
+      <div className="ohours p-3 mx-auto">
         <p>
           <strong>
             Öppettider <br></br><br></br>
@@ -14,14 +14,14 @@ const Footer = () => {
             Lör & sön:  <strong>08.00-17.00<br></br></strong>
             </p>
       </div>
-      <div className="address p-5 mx-auto">
+      <div className="address p-3 mx-auto">
         <p>
         <strong>CoffeCake Café</strong><br></br><br></br>
         Cafégatan 1 <br></br>
         803 11 Gävle
           </p>
           </div>
-          <div className="contact p-5 mx-auto">
+          <div className="contact p-3 mx-auto">
         <p>
         <strong>Kontakt </strong><br></br><br></br>
         026-26 26 00 <br></br>

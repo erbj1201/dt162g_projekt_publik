@@ -79,7 +79,7 @@ const MenuComponent: React.FC = () => {
       </form>
 
       {!isLoading && !error && (
-        <div className="mx-auto text-center">
+        <div className="mx-auto text-center p-3">
           {/*Render meny items by category */}
           {filteredPosts.map((post) => (
             <article className="mx-auto" key={post._id}>

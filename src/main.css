@@ -48,3 +48,12 @@ label{
     font-family: 'Noto Serif', serif;
     font-weight: 200;
 }
+@media screen and (max-width: 600px) {
+    footer{
+        max-width: 350px;
+        margin: auto;
+        padding: 2em;
+        font-size: 0.8em;
+    }
+
+}
